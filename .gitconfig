@@ -1,0 +1,52 @@
+[user]
+    name = Marek Novotný
+    email = 67969809+m-novotny@users.noreply.github.com
+    signingkey = ~/.ssh/id_ed25519.pub
+
+[commit]
+    gpgsign = true
+    verbose = true
+
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
+    lg = log --oneline --graph --decorate --all
+    amend = commit --amend --no-edit
+    rb = rebase
+    rbi = rebase -i
+
+[core]
+    editor = nvim
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+
+[diff]
+    tool = nvimdiff
+
+[difftool "nvimdiff"]
+    cmd = nvim -d $LOCAL $REMOTE
+
+[merge]
+    tool = nvimdiff
+    conflictstyle = diff3
+
+[mergetool "nvimdiff"]
+    cmd = nvim -d $LOCAL $REMOTE $MERGED $BASE
+
+[pull]
+    rebase = true
+
+[push]
+    default = current
+    autoSetupRemote = true
+
+[color]
+    ui = auto
+
+[rust]
+    verbose = true

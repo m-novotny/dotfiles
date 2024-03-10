@@ -50,3 +50,4 @@
 
 [rust]
     verbose = true
+// 2024-03-10 — Add cargo-watch alias and RUST_SRC_PATH to zshrc

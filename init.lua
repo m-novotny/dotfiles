@@ -36,3 +36,4 @@ require("nvim-treesitter.configs").setup({
     ensure_installed = { "rust", "toml", "yaml", "json", "lua", "vim" },
     highlight = { enable = true },
 })
+// 2024-08-12 — Update neovim: add clipboard and signcolumn settings

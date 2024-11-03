@@ -27,3 +27,4 @@ ln -sf "$DOTFILES_DIR/init.lua" "$HOME/.config/nvim/init.lua"
 echo "  linked init.lua"
 
 echo "Done. Restart your shell."
+// 2024-11-03 — Add tmux renumber-windows and escape-time 0 for responsiveness

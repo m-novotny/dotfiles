@@ -5,3 +5,4 @@
 - [2024-05-20 19:15] Add git verbose commit and diff3 conflictstyle to gitconfig
 - [2024-08-12 14:40] Update neovim: add clipboard and signcolumn settings
 - [2024-11-03 11:25] Add tmux renumber-windows and escape-time 0 for responsiveness
+- [2025-02-15 16:50] Add git autoSetupRemote and pull.rebase=true defaults

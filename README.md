@@ -23,3 +23,4 @@ cd ~/dotfiles && ./install.sh
 - zsh + tmux + neovim
 - Rust toolchain via rustup
 - Editor: neovim with LSP (rust-analyzer)
+// 2025-02-15 — Add git autoSetupRemote and pull.rebase=true defaults

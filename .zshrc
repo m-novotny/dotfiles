@@ -45,3 +45,4 @@ PROMPT='%{$fg[blue]%}%~%{$reset_color%} %{$fg[green]%}»%{$reset_color%} '
 if [ -z "$TMUX" ] && [ -z "$SSH_TTY" ]; then
     tmux attach || tmux new
 fi
+// 2025-05-08 — Refactor install.sh to handle existing file backups cleanly

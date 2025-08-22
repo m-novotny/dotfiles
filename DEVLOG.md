@@ -7,3 +7,4 @@
 - [2024-11-03 11:25] Add tmux renumber-windows and escape-time 0 for responsiveness
 - [2025-02-15 16:50] Add git autoSetupRemote and pull.rebase=true defaults
 - [2025-05-08 10:35] Refactor install.sh to handle existing file backups cleanly
+- [2025-08-22 13:20] Add rust-analyzer checkOnSave clippy command in init.lua

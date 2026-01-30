@@ -8,3 +8,4 @@
 - [2025-02-15 16:50] Add git autoSetupRemote and pull.rebase=true defaults
 - [2025-05-08 10:35] Refactor install.sh to handle existing file backups cleanly
 - [2025-08-22 13:20] Add rust-analyzer checkOnSave clippy command in init.lua
+- [2026-01-30 09:45] Add hist_ignore_all_dups and hist_verify to zshrc

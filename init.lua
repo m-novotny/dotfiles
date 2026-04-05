@@ -37,3 +37,4 @@ require("nvim-treesitter.configs").setup({
     highlight = { enable = true },
 })
 // 2024-08-12 — Update neovim: add clipboard and signcolumn settings
+// 2026-04-05 — Update tmux status bar with datetime and session name formatting

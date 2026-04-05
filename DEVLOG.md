@@ -9,3 +9,4 @@
 - [2025-05-08 10:35] Refactor install.sh to handle existing file backups cleanly
 - [2025-08-22 13:20] Add rust-analyzer checkOnSave clippy command in init.lua
 - [2026-01-30 09:45] Add hist_ignore_all_dups and hist_verify to zshrc
+- [2026-04-05 18:10] Update tmux status bar with datetime and session name formatting

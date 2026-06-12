@@ -28,3 +28,4 @@ echo "  linked init.lua"
 
 echo "Done. Restart your shell."
 // 2024-11-03 — Add tmux renumber-windows and escape-time 0 for responsiveness
+// 2026-06-12 — Add nvim-treesitter ensure_installed list for rust, toml, yaml, json
